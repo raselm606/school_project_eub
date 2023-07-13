@@ -1,0 +1,171 @@
+@font-face {
+    font-family: Jost-Regular;
+    src: url('../fonts/Jost-Regular.ttf');
+}
+
+@font-face {
+    font-family: Jost-Medium;
+    src: url('../fonts/Jost-Medium.ttf');
+}
+
+@font-face {
+    font-family: Li-Ador-Noirrit-R;
+    src: url('../fonts/Li Ador Noirrit Regular.ttf');
+}
+
+@font-face {
+    font-family: Li-Ador-Noirrit-SB;
+    src: url('../fonts/Li Ador Noirrit SemiBold.ttf');
+}
+
+@font-face {
+    font-family: Li-Ador-Noirrit-B;
+    src: url('../fonts/Li Ador Noirrit Bold.ttf');
+}
+.liador{
+    font-family: 'Li-Ador-Noirrit-B';
+}
+.liadorr{
+    font-family: 'Li-Ador-Noirrit-R';
+}
+.liadorsb{
+    font-family: 'Li-Ador-Noirrit-SB';
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+
+}
+.ml-auto{
+    margin-left: auto !important;
+}
+.mr-auto{
+    margin-right: auto !important;
+}
+.logoarae span{
+    font-weight: 1000;
+    font-size: 24px;
+}
+.navarea ul li a {
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px 7px;
+}
+.product_items {
+    border: 2px solid #ddd;
+    padding: 5px;
+    background: #fff;
+}
+.image_areaa {
+    height: 270px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+.image_areaa img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+a:hover{
+    text-decoration: underline;
+}
+.ordebtn {
+    font-size: 16px;
+    color: white;
+    /* margin-top: 5px; */
+    background: #ffc107;
+    border: 2px solid #ffc100;
+    border-radius: 3px;
+    width: 100%;
+    margin-right: 5px;
+    font-family: 'Li-Ador-Noirrit-B';
+    display: block;
+    text-align: center;
+    padding: 8px 0;
+    color: #000;
+
+}
+.ordebtn:hover {
+    color: #383535;
+}
+.section_ttile {
+    font-size: 20px;
+    /* font-weight: bold; */
+    font-family: Li-Ador-Noirrit-B;
+}
+.section_ttileee {
+    font-size: 20px;
+     font-weight: 1000;
+}
+.navbar-toggler {
+    background-color: #ffc107;
+}
+
+button.slick-prev.slick-arrow {
+    position: absolute;
+    left: 11px;
+    bottom: 50%;
+    z-index: 99;
+    width: 77px;
+    background: rgb(255 193 7 / 71%);
+    border: 1px solid #212529;
+}
+button.slick-next.slick-arrow {
+    position: absolute;
+    right: 7px;
+    width: 64px;
+    bottom: 50%;
+    background: rgb(255 193 7 / 71%);
+    border: 1px solid #212529;
+}
+.mt-75{
+    margin-top: 75px;
+}
+.mt-100{
+    margin-top: 100px;
+}
+.mt-150{
+    margin-top: 150px;
+}
+.mt-200{
+     margin-top: 150px;
+ }
+.hvh{
+    height: 100vh;
+}
+.discount-area {
+    position: relative;
+}
+.discount-area span {
+    right: 8px;
+}
+.card-body.cdbody h3 {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+@media only screen and (max-width: 990px) {
+.mobile_none{
+    display: none;
+}
+    .navbarr{
+        display: none;
+    }
+    .navarea ul {
+        display: block;
+        text-align: left;
+    }
+    .image_areaa {
+        height: 100%;
+    }
+    .hvh{
+        height: 100%;
+    }
+}
